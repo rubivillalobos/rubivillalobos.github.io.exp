@@ -1,0 +1,138 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    align-items: center;
+    justify-content: center;
+   
+    display: grid;
+}
+
+header {
+    background-color: #f2f2f2;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    margin-right: 20px;
+    text-transform: uppercase;
+}
+
+nav ul li:last-child {
+    margin-right: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px;
+}
+
+main {
+    text-align: center;
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+
+.social-icons {
+    margin-top: 20px;
+}
+
+.blog-content {
+    margin-top: 40px;
+}
+
+.blog-content img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    border-color: red;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 20px;
+    margin-top: 40px;
+
+    align-items: center;
+    align-content: center;
+    align-content: space-between;
+}
+
+.gallery img {
+    width: 100%;
+    max-width: 100px;
+    height: 100px;
+    display: flex;
+    display: inline;
+    align-items: center;
+    align-content: center;
+    align-content: space-between;
+}
+
+.videos-content {
+    margin-top: 40px;
+}
+
+.videos-content h2 {
+    margin-bottom: 20px;
+}
+
+.social-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.hero-imagen {
+    background-image: url("img/blanconegro.jpg");
+    height: 80%;
+
+    background-position: center;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    text-align: center;
+    padding: 100px;
+    position: relative;
+    align-items: center;
+
+}
+
+.hero-texto {
+    text-align: center;
+}
+
+
+.hero .content {
+    position: relative;
+    z-index: 1;
+}
